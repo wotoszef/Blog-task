@@ -24,5 +24,4 @@ const specificPageSlice = createSlice({
   },
 });
 
-export const {} = specificPageSlice.actions;
 export default specificPageSlice.reducer;
