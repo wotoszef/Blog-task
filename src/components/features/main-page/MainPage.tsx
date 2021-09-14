@@ -23,10 +23,10 @@ const MainPage = () => {
             key={postDetail.id}
             style={{ border: "1px solid black", margin: "1rem 0" }}
           >
-            <h1 style={{ textAlign: "center", textTransform: "capitalize" }}>
+            <h1 style={{ textAlign: "left", padding: '0 3rem', textTransform: "capitalize" }}>
               {postDetail.title}
             </h1>
-            <p style={{ textAlign: "center" }}>{postDetail.body}</p>
+            <p style={{ textAlign: "justify", padding: '0 3rem' }}>{postDetail.body}</p>
             <div
               style={{
                 width: "100%",
